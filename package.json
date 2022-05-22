@@ -1,10 +1,11 @@
 {
-  "name": "securechat",
+  "name": "securetalk",
   "version": "1.0.0",
-  "description": "SecureChat is a realtime chat application built in Nodejs and socket.io",
+  "description": "SecureTalk is a realtime chat application built in Nodejs and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/thekrishnarajput/secureTalk/issues"
   },
-  "homepage": "https://github.com/thekrishnarajput/secureTalk#readme"
+  "homepage": "https://github.com/thekrishnarajput/secureTalk#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dependable": "^1.1.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.4",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
 }
