@@ -1,0 +1,19 @@
+{
+  "name": "securechat",
+  "version": "1.0.0",
+  "description": "SecureChat is a realtime chat application built in Nodejs and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekrishnarajput/secureTalk.git"
+  },
+  "author": "Mukesh (Krishna)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekrishnarajput/secureTalk/issues"
+  },
+  "homepage": "https://github.com/thekrishnarajput/secureTalk#readme"
+}
